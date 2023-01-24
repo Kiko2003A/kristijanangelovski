@@ -1,0 +1,150 @@
+.header1 {
+    background-color: #242423;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;    
+}
+
+.logo {
+    position: absolute;
+width: 44px;
+height: 54px;
+left: 120px;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 60px;
+line-height: 46px;
+/* or 77% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+.logo2 {
+    position: absolute;
+width: 25px;
+height: 37px;
+left: 161px;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 36px;
+line-height: 46px;
+/* or 128% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.homeheader {
+    position: absolute;
+    left: 1274px;
+    right: 580px;
+    top: 16px;
+    bottom: 0%;
+    
+    font-family: 'Roboto Mono';
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+
+}
+.homeheader:hover {
+    color: #0087FF ;
+}
+
+
+.projectsheader {
+   
+    position: absolute;
+left: 1376px;
+right: 455px;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+
+.projectsheader:hover {
+    color: #0087FF ;
+}
+
+
+.contactheader {
+    position: absolute;
+left: 1501px;
+right: 326px;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: none;
+
+color: #FFFFFF;
+
+}
+.contactheader:hover {
+    color: #0087FF ;
+}
+
+.kopce {
+    background-color: #0088ffe2; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    left: 1620px;
+    top: 11px;
+    position: absolute;
+}
+.kopce:hover {
+    background-color: #0079e3; 
+    color: rgb(255, 255, 255);
+}
+
+.dkp {
+    width: 100%;
+    left: 10px;
+}

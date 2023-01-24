@@ -1,0 +1,716 @@
+@media only screen and (max-width: 600px) {
+    .header1 {
+        width: 100% !important;
+    }
+    .header-menu {
+        display: none;
+    }
+    .header-icon {
+        display: block !important;
+        left: 450px;
+        position: absolute;
+        color: #FFFFFF;
+      scale: 250%;
+      top: 30px;
+      width: 100px;
+    }
+    .logo {
+        position: absolute;
+        width: 44px;
+        height: 54px;
+        left: 50px !important;
+        top: 9px;
+        font-family: 'Roboto Mono';
+        font-size: 60px;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+}
+.logo2 {
+    position: absolute;
+    width: 25px;
+    height: 37px;
+    left: 90px !important;
+    top: 9px;
+    font-family: 'Roboto Mono';
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.intro {
+    position: absolute !important;
+    width: 100% !important; 
+    height: 100% !important;
+    left: -50px !important;
+    top: 68px !important;
+    object-fit: cover !important;
+    overflow:hidden !important;
+}
+.ime {
+    position: absolute !important;
+    width: 557px !important;
+    height: 70px !important;
+    left: 50px !important;
+    top: 400px !important;
+    font-family: 'Roboto Mono' !important;
+    font-size: 34px !important;
+    line-height: 46px !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+}
+.prof {
+    position: absolute !important;
+    width: 350px !important;
+    height: 37px !important;
+    left: 50px !important;
+    top: 425px !important;
+    font-family: 'Nerko One' !important;
+    font-size: 26px !important;
+    line-height: 46px !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+}
+.about {
+    position: absolute !important;
+    width: 250px !important;
+    height: 34px !important;
+    left: 160px !important;
+    top: 925px !important;
+    font-family: 'Nerko One' !important;
+    font-size: 34px !important;
+    line-height: 46px !important;
+    text-transform: capitalize !important;
+    color: #181414 !important;
+}
+.foto1 {
+    position: absolute !important;
+    scale: 55%;
+    left: -120px !important;
+    right: 6.73% !important;
+    top: 1085px !important;
+    bottom: 56.38% !important;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+}
+.foto2 {
+    position: absolute !important;
+    scale: 55%;
+    left: 60px !important;
+    right: 6.73% !important;
+    top: 1085px !important;
+    bottom: 56.38% !important;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+}
+.foto3 {
+    position: absolute !important;
+    scale: 65% !important;
+    left: 20px !important;
+    right: 255px !important;
+    top: 1025px !important;
+    bottom: 54.85% !important;
+    background: url(.jpg), #D9D9D9 !important;
+    box-shadow: 15px 16px 24px rgb(0 0 0 / 15%) !important;
+}
+.p1 {
+    position: absolute !important;
+    width: 370px !important;
+    height: 248px !important;
+    left: 50px !important;
+    top: 1440px !important;
+    font-family: 'Roboto Mono' !important;
+    font-size: 16px !important;
+    line-height: 35px !important;
+    color: #181414 !important;
+}
+.figma {
+    position: absolute !important;
+    scale: 60% !important;
+    width: 197.23px !important;
+    height: 100px !important;
+    left: 30px !important;
+    top: 1705px !important;
+}
+.html {
+    position: absolute !important;
+    scale: 75% !important;
+    width: 203.08px !important;
+    height: 100px !important;
+    left: 216px !important;
+    top: 1705px !important;
+}
+.css {
+    position: absolute !important;
+    scale: 75% !important;
+    width: 187.5px !important;
+    height: 100px !important;
+    left: 30px !important;
+    top: 1790px !important;
+}
+.java {
+    position: absolute !important;
+    scale: 75% !important;
+    width: 242.58px !important ;
+    height: 100px !important;
+    left: 216px !important;
+    top: 1790px !important;
+}
+.proekti {
+    position: absolute !important;
+    width: 254px !important;
+    height: 46px !important;
+    left: 95px !important;
+    top: 1938px !important;
+    font-family: 'Nerko One' !important;
+    font-size: 34px !important;
+    line-height: 46px !important;
+    text-align: center !important;
+    text-transform: capitalize !important;
+    color: #181414 !important;
+}
+.proektintro {
+    position: absolute !important;
+    width: 350px !important;
+    height: 81px !important;
+    left: 50px !important;
+    top: 2000px !important;
+    font-family: 'Roboto Mono' !important;
+    font-size: 14px !important;
+    line-height: 40px !important;
+    text-align: center !important;
+    color: #181414 !important;
+}
+.btn-group button {
+   display: none !important;
+
+  }
+  .proektic {
+    position: absolute !important;
+    scale: 70% !important;
+    width: 530px !important;
+    height: 524px !important;
+    left: -30px !important;
+    top: 2018px !important;
+}
+.proektic1 {
+    position: absolute !important;
+    scale: 70% !important;
+    width: 530px !important;
+    height: 524px !important;
+    left: -30px !important;
+    top: 2360px !important;
+}
+.proektic2 {
+    position: absolute !important;
+    scale: 70% !important;
+    width: 530px !important;
+    height: 524px !important;
+    left: -30px !important;
+    top: 2702px !important;
+}
+.proektic3 {
+    display: none !important;
+}
+.proektic4 {
+    display: none !important;
+}
+.projectall {
+    background-color: #242423 !important;
+    border: none !important;
+    width: 164px !important;
+    height: 44px !important;
+    color: white !important;
+    padding: 7px 16px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 22px !important;
+    position: absolute !important;
+    left: 150px !important;
+    top: 3156px !important;
+    border-radius: 10px !important;
+}
+.contactme {
+    background-color: #242423 !important;
+    border: none !important;
+    width: 190px !important;
+    height: 42px !important;
+    color: white !important;
+    padding: 15px 32px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    line-height: 5px !important;
+    display: inline-block !important;
+    font-size: 22px !important;
+    position: absolute !important;
+    left: 136px !important;
+    top: 3216px !important;
+    border-radius: 10px !important;
+}
+.credit {
+    display: none !important;
+}
+
+}
+  
+
+
+
+
+
+
+
+
+
+.header1 {
+    background-color: #242423;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;    
+}
+
+.logo {
+    position: absolute;
+width: 44px;
+height: 54px;
+left: 120px;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 60px;
+line-height: 46px;
+/* or 77% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+.logo2 {
+    position: absolute;
+width: 25px;
+height: 37px;
+left: 161px;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 36px;
+line-height: 46px;
+/* or 128% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.homeheader {
+    position: absolute;
+    left: 1274px;
+    right: 580px;
+    top: 16px;
+    bottom: 0%;
+    
+    font-family: 'Roboto Mono';
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+
+}
+
+.header-icon {
+display: none;
+}
+.projectsheader {
+   
+    position: absolute;
+left: 1376px;
+right: 455px;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: none;
+
+color: #FFFFFF;
+
+}
+
+.projectsheader:hover {
+    color: #0087FF ;
+}
+
+
+.contactheader {
+    position: absolute;
+left: 1501px;
+right: 326px;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: none;
+
+color: #FFFFFF;
+
+}
+.contactheader:hover {
+    color: #0087FF ;
+}
+
+.kopce {
+    background-color: #0088ffe2; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    left: 1620px;
+    top: 11px;
+    position: absolute;
+}
+.kopce:hover {
+    background-color: #0079e3; 
+    color: rgb(255, 255, 255);
+}
+
+.intro {
+    position: absolute;
+left: 0px;
+top: 70px;
+width: 100%;
+height: 850px;
+
+}
+
+.ime {
+    
+position: absolute;
+width: 557px;
+height: 70px;
+left: 120px;
+top: 430px;
+
+font-family: 'Roboto Mono';
+font-size: 50px;
+line-height: 46px;
+/* or 92% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+.prof {
+    position: absolute;
+width: 350px;
+height: 37px;
+left: 120px;
+top: 480px;
+
+/* h2 */
+
+font-family: 'Nerko One';
+font-size: 46px;
+line-height: 46px;
+/* or 128% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.about{
+    position: absolute;
+width: 250px;
+height: 46px;
+left: 120px;
+top: 1189px;
+
+/* h2 */
+
+font-family: 'Nerko One';
+font-size: 48px;
+line-height: 46px;
+/* identical to box height, or 128% */
+
+text-transform: capitalize;
+
+color: #181414;
+}
+
+.p1 {
+    position: absolute;
+width: 672px;
+height: 248px;
+left: 123px;
+top: 1275px;
+
+/* body 2 */
+
+font-family: 'Roboto Mono';
+font-size: 20px;
+line-height: 35px;
+/* or 194% */
+
+color: #181414;
+}
+
+.foto1 {
+    position: absolute;
+    left: 1310px;
+    right: 6.73%;
+    top: 1100px;
+    bottom: 56.38%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.foto2 {
+    position: absolute;
+left: 1011px;
+right: 428px;
+top: 1100px;
+bottom: 56.38%;
+
+background: url(.jpg), #C7B3B3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.foto3 {
+    position: absolute;
+left: 1156px;
+right: 253px;
+top: 1040px;
+bottom: 54.85%;
+background: url(.jpg), #D9D9D9;
+box-shadow: 15px 16px 24px rgba(0, 0, 0, 0.15);
+}
+
+.figma {
+    position: absolute;
+width: 197.23px;
+height: 100px;
+left: 407px;
+top: 1748px;
+}
+
+.html {
+    position: absolute;
+width: 203.08px;
+height: 100px;
+left: 721.17px;
+top: 1748px;
+
+}
+
+.css {
+    position: absolute;
+width: 187.5px;
+height: 100px;
+left: 1037.5px;
+top: 1748px;
+
+}
+
+.java {
+    position: absolute;
+width: 242.58px;
+height: 100px;
+left: 1322.42px;
+top: 1748px;
+
+}
+
+.proekti {
+    position: absolute;
+width: 254px;
+height: 46px;
+left: 833px;
+top: 1938px;
+
+/* h1 */
+
+font-family: 'Nerko One';
+font-size: 65px;
+line-height: 46px;
+/* identical to box height, or 77% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #181414;
+}
+
+.proektintro {
+    position: absolute;
+width: 1195px;
+height: 81px;
+left: 362px;
+top: 2070px;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+
+color: #181414;
+}
+
+
+
+.proektic {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 120px;
+    top: 2226px;
+    
+}
+
+.proektic1 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 695px;
+    top: 2226px;
+    
+}
+
+.proektic2 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 1270px;
+    top: 2226px;
+    
+}
+
+
+
+.proektic3 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 120px;
+    top: 2796px;
+    
+}
+
+.proektic4 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 695px;
+    top: 2796px;
+    
+}
+
+.projectall {
+    background-color: #242423; 
+    border: none;
+    width: 242px;
+    height: 80px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    position: absolute;
+    left: 839px;
+    top: 3350px;
+    border-radius: 20px;
+  }
+.projectalltext {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  .projectall:hover {
+    background-color: #0087FF;
+  }
+
+  .contactme {
+    background-color: #242423; 
+    border: none;
+    width: 241px;
+    height: 42px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 5px;
+    display: inline-block;
+    font-size: 24px;
+    position: absolute;
+    left: 840px;
+    top: 3500px;
+    border-radius: 10px;
+  }
+
+  .contactme:hover {
+    background-color: #0087FF;
+  }
+
+  .credit {
+position: absolute;
+top: 3700px;
+text-align: center;
+margin: auto;
+width: 300px;
+height: 200px;
+padding: 10px;
+left: 800px;
+
+/* body 2 */
+
+font-family: 'Roboto Mono';
+font-size: 18px;
+line-height: 35px;
+/* or 194% */
+
+color: #181414;
+}

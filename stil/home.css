@@ -1,0 +1,822 @@
+.header1 {
+    background-color: #242423;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;    
+}
+
+.logo {
+    position: absolute;
+width: 44px;
+height: 54px;
+left: 8%;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 60px;
+line-height: 46px;
+/* or 77% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+.logo2 {
+    position: absolute;
+width: 25px;
+height: 37px;
+left: 11%;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 36px;
+line-height: 46px;
+/* or 128% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.homeheader {
+    position: absolute;
+    left: 60%;
+    top: 16px;
+    bottom: 0%;
+    
+    font-family: 'Roboto Mono';
+    font-size: 22px;
+    line-height: 40px;
+    /* or 167% */
+    
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+
+}
+.homeheader:hover {
+    color: #0087FF ;
+}
+
+
+.projectsheader {
+   
+    position: absolute;
+left: 66%;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 22px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: none;
+
+
+color: #FFFFFF;
+
+}
+.projectsheader:hover {
+    color: #0087FF ;
+}
+
+
+.contactheader {
+    position: absolute;
+left: 73%;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 22px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: none;
+
+color: #FFFFFF;
+
+}
+.contactheader:hover {
+    color: #0087FF ;
+}
+
+.kopce {
+    background-color: #0088ffe2; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    left: 80%;
+    top: 11px;
+    position: absolute;
+}
+.kopce:hover {
+    background-color: #0079e3; 
+    color: rgb(255, 255, 255);
+}
+
+.intro {
+    position: absolute;
+left: 0px;
+top: 70px;
+width: 100%;
+height: 800px;
+
+}
+
+.ime {
+    
+position: absolute;
+width: 557px;
+height: 70px;
+left: 8%;
+top: 350px;
+
+font-family: 'Roboto Mono';
+font-size: 48px;
+line-height: 46px;
+/* or 92% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+.prof {
+    position: absolute;
+width: 350px;
+height: 37px;
+left: 8%;
+top: 380px;
+
+/* h2 */
+
+font-family: 'Nerko One';
+font-size: 48px;
+line-height: 46px;
+/* or 128% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.about{
+    position: absolute;
+width: 250px;
+height: 46px;
+left: 8%;
+top: 1050px;
+
+/* h2 */
+
+font-family: 'Nerko One';
+font-size: 48px;
+line-height: 46px;
+/* identical to box height, or 128% */
+
+text-transform: capitalize;
+
+color: #181414;
+}
+
+.p1 {
+    position: absolute;
+width: 672px;
+height: 248px;
+left: 8%;
+top: 1150px;
+
+/* body 2 */
+
+font-family: 'Roboto Mono';
+font-size: 20px;
+line-height: 35px;
+/* or 194% */
+
+color: #181414;
+}
+
+.foto1 {
+    position: absolute;
+    left: 53%;
+    top: 1050px;
+    bottom: 56.38%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    scale: 75%;
+}
+
+.foto2 {
+    position: absolute;
+left: 66%;
+top: 1050px;
+bottom: 56.38%;
+
+background: url(.jpg), #C7B3B3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+scale: 75%;
+}
+
+.foto3 {
+    position: absolute;
+left: 60%;
+right: 253px;
+top: 990px;
+bottom: 54.85%;
+background: url(.jpg), #D9D9D9;
+box-shadow: 15px 16px 24px rgba(0, 0, 0, 0.15);
+scale: 80%;
+}
+
+.figma {
+    position: absolute;
+width: 197.23px;
+height: 100px;
+left: 13%;
+top: 1548px;
+scale: 75%;
+}
+
+.html {
+    position: absolute;
+width: 203.08px;
+height: 100px;
+left: 35%;
+top: 1548px;
+scale: 75%;
+
+}
+
+.css {
+    position: absolute;
+width: 187.5px;
+height: 100px;
+left: 55%;
+top: 1548px;
+scale: 75%;
+
+}
+
+.java {
+    position: absolute;
+width: 242.58px;
+height: 100px;
+left: 75%;
+top: 1548px;
+scale: 75%;
+
+}
+
+.proekti {
+    position: relative;
+width: 254px;
+height: 46px;
+top: 1738px;
+left: 45%;
+
+/* h1 */
+
+font-family: 'Nerko One';
+font-size: 48px;
+line-height: 46px;
+/* identical to box height, or 77% */
+
+text-transform: capitalize;
+
+color: #181414;
+}
+
+.proektintro {
+    position: absolute;
+width: 1195px;
+height: 81px;
+left: 13%;
+top: 1870px;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 22px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+
+color: #181414;
+}
+
+
+
+.proektic {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 8%;
+    top: 1950px;
+    scale: 80%;
+    
+}
+
+.proektic1 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 35%;
+    top: 1950px;
+    scale: 80%;
+}
+
+.proektic2 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 62%;
+    top: 1950px;
+    scale: 80%;
+}
+
+
+
+.proektic3 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 8%;
+    top: 2400px;
+    scale: 80%;
+}
+
+.proektic4 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 35%;
+    top: 2400px;
+    scale: 80%;
+}
+
+
+.projectall {
+    background-color: #242423; 
+    border: none;
+    width: 180px;
+    height: 50px;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    position: absolute;
+    left: 45%;
+    top: 2900px;
+    border-radius: 14px;
+  }
+.projectalltext {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  .projectall:hover {
+    background-color: #0087FF;
+  }
+
+  .contactme {
+    background-color: #242423; 
+    border: none;
+    width: 180px;
+    height: 50px;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 5px;
+    display: inline-block;
+    font-size: 22px;
+    position: absolute;
+    left: 45%;
+    top: 3000px;
+    border-radius: 10px;
+  }
+
+  .contactme:hover {
+    background-color: #0087FF;
+  }
+
+  .credit {
+position: absolute;
+top: 3100px;
+text-align: center;
+margin: auto;
+width: 300px;
+height: 200px;
+padding: 10px;
+left: 40%;
+
+/* body 2 */
+
+font-family: 'Roboto Mono';
+font-size: 14px;
+line-height: 35px;
+/* or 194% */
+
+color: #181414;
+}
+@media only screen and (max-width: 428px) {
+    .header1 {
+        background-color: #242423;
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        left: 0px;
+        top: 0px;    
+    }
+    
+    .logo {
+        position: absolute;
+    width: 44px;
+    height: 54px;
+    left: 8%;
+    top: 9px;
+    
+    font-family: 'Roboto Mono';
+    font-size: 60px;
+    line-height: 46px;
+    /* or 77% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .logo2 {
+        position: absolute;
+    width: 25px;
+    height: 37px;
+    left: 11%;
+    top: 9px;
+    
+    font-family: 'Roboto Mono';
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    
+    .homeheader {
+display: none;
+    }
+    .projectsheader {
+        display: none;
+    }
+    .contactheader {
+        display: none;
+    }
+    .kopce {
+        display: none;
+    }
+
+    .intro {
+        position: absolute;
+    left: 0px;
+    top: 70px;
+    width: 100%;
+    height: 800px;
+    
+    }
+    
+    .ime {
+        
+    position: absolute;
+    width: 557px;
+    height: 70px;
+    left: 8%;
+    top: 350px;
+    
+    font-family: 'Roboto Mono';
+    font-size: 48px;
+    line-height: 46px;
+    /* or 92% */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .prof {
+        position: absolute;
+    width: 350px;
+    height: 37px;
+    left: 8%;
+    top: 380px;
+    
+    /* h2 */
+    
+    font-family: 'Nerko One';
+    font-size: 48px;
+    line-height: 46px;
+    /* or 128% */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    
+    .about{
+        position: absolute;
+    width: 250px;
+    height: 46px;
+    left: 8%;
+    top: 1050px;
+    
+    /* h2 */
+    
+    font-family: 'Nerko One';
+    font-size: 48px;
+    line-height: 46px;
+    /* identical to box height, or 128% */
+    
+    text-transform: capitalize;
+    
+    color: #181414;
+    }
+    
+    .p1 {
+        position: absolute;
+    width: 672px;
+    height: 248px;
+    left: 8%;
+    top: 1150px;
+    
+    /* body 2 */
+    
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    line-height: 35px;
+    /* or 194% */
+    
+    color: #181414;
+    }
+    
+    .foto1 {
+        position: absolute;
+        left: 53%;
+        top: 1050px;
+        bottom: 56.38%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        scale: 75%;
+    }
+    
+    .foto2 {
+        position: absolute;
+    left: 66%;
+    top: 1050px;
+    bottom: 56.38%;
+    
+    background: url(.jpg), #C7B3B3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    scale: 75%;
+    }
+    
+    .foto3 {
+        position: absolute;
+    left: 60%;
+    right: 253px;
+    top: 990px;
+    bottom: 54.85%;
+    background: url(.jpg), #D9D9D9;
+    box-shadow: 15px 16px 24px rgba(0, 0, 0, 0.15);
+    scale: 80%;
+    }
+    
+    .figma {
+        position: absolute;
+    width: 197.23px;
+    height: 100px;
+    left: 13%;
+    top: 1548px;
+    scale: 75%;
+    }
+    
+    .html {
+        position: absolute;
+    width: 203.08px;
+    height: 100px;
+    left: 35%;
+    top: 1548px;
+    scale: 75%;
+    
+    }
+    
+    .css {
+        position: absolute;
+    width: 187.5px;
+    height: 100px;
+    left: 55%;
+    top: 1548px;
+    scale: 75%;
+    
+    }
+    
+    .java {
+        position: absolute;
+    width: 242.58px;
+    height: 100px;
+    left: 75%;
+    top: 1548px;
+    scale: 75%;
+    
+    }
+    
+    .proekti {
+        position: relative;
+    width: 254px;
+    height: 46px;
+    top: 1738px;
+    left: 45%;
+    
+    /* h1 */
+    
+    font-family: 'Nerko One';
+    font-size: 48px;
+    line-height: 46px;
+    /* identical to box height, or 77% */
+    
+    text-transform: capitalize;
+    
+    color: #181414;
+    }
+    
+    .proektintro {
+        position: absolute;
+    width: 1195px;
+    height: 81px;
+    left: 13%;
+    top: 1870px;
+    
+    /* sub1 */
+    
+    font-family: 'Roboto Mono';
+    font-size: 22px;
+    line-height: 40px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    color: #181414;
+    }
+    
+    
+    
+    .proektic {
+        position: absolute;
+        width: 530px;
+        height: 524px;
+        left: 8%;
+        top: 1950px;
+        scale: 80%;
+        
+    }
+    
+    .proektic1 {
+        position: absolute;
+        width: 530px;
+        height: 524px;
+        left: 35%;
+        top: 1950px;
+        scale: 80%;
+    }
+    
+    .proektic2 {
+        position: absolute;
+        width: 530px;
+        height: 524px;
+        left: 62%;
+        top: 1950px;
+        scale: 80%;
+    }
+    
+    
+    
+    .proektic3 {
+        position: absolute;
+        width: 530px;
+        height: 524px;
+        left: 8%;
+        top: 2400px;
+        scale: 80%;
+    }
+    
+    .proektic4 {
+        position: absolute;
+        width: 530px;
+        height: 524px;
+        left: 35%;
+        top: 2400px;
+        scale: 80%;
+    }
+    
+    
+    .projectall {
+        background-color: #242423; 
+        border: none;
+        width: 180px;
+        height: 50px;
+        color: white;
+        padding: 7px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        position: absolute;
+        left: 45%;
+        top: 2900px;
+        border-radius: 14px;
+      }
+    .projectalltext {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+      .projectall:hover {
+        background-color: #0087FF;
+      }
+    
+      .contactme {
+        background-color: #242423; 
+        border: none;
+        width: 180px;
+        height: 50px;
+        color: white;
+        padding: 7px 16px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 5px;
+        display: inline-block;
+        font-size: 22px;
+        position: absolute;
+        left: 45%;
+        top: 3000px;
+        border-radius: 10px;
+      }
+    
+      .contactme:hover {
+        background-color: #0087FF;
+      }
+    
+      .credit {
+    position: absolute;
+    top: 3100px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    left: 40%;
+    
+    /* body 2 */
+    
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+    line-height: 35px;
+    /* or 194% */
+    
+    color: #181414;
+    }
+}

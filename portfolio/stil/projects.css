@@ -1,0 +1,292 @@
+.header1 {
+    background-color: #242423;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;    
+}
+
+.logo {
+    position: absolute;
+width: 44px;
+height: 54px;
+left: 120px;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 60px;
+line-height: 46px;
+/* or 77% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+.logo2 {
+    position: absolute;
+width: 25px;
+height: 37px;
+left: 161px;
+top: 9px;
+
+font-family: 'Roboto Mono';
+font-size: 36px;
+line-height: 46px;
+/* or 128% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.homeheader {
+    position: absolute;
+    left: 1274px;
+    right: 580px;
+    top: 16px;
+    bottom: 0%;
+    
+    font-family: 'Roboto Mono';
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    
+    text-align: center;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+
+}
+.homeheader:hover {
+    color: #0087FF ;
+}
+
+
+.projectsheader {
+   
+    position: absolute;
+left: 1376px;
+right: 455px;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+
+
+.contactheader {
+    position: absolute;
+left: 1501px;
+right: 326px;
+top: 16px;
+bottom: 0%;
+
+/* sub1 */
+
+font-family: 'Roboto Mono';
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+text-align: center;
+text-transform: capitalize;
+text-decoration-line: none;
+
+color: #FFFFFF;
+
+}
+.contactheader:hover {
+    color: #0087FF ;
+}
+
+.kopce {
+    background-color: #0088ffe2; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    left: 1620px;
+    top: 11px;
+    position: absolute;
+}
+.kopce:hover {
+    background-color: #0079e3; 
+    color: rgb(255, 255, 255);
+}
+
+.bg22 {
+    position: absolute;
+width: 100%;
+height: 880px;
+left: 0px;
+top: 70px;
+opacity: 20%;
+}
+.bg23 {
+    position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 70px;
+
+background: linear-gradient(0deg, rgba(34, 34, 34, 0.1), rgba(34, 34, 34, 0.1)), url(.jpg);
+}
+
+
+.projectsname {
+position: absolute;
+width: 245px;
+height: 50px;
+left: 840px;
+top: 400px;
+
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 46px;
+/* or 92% */
+letter-spacing: 0.1em;
+
+text-transform: capitalize;
+
+color: #222222;
+
+}
+
+.btn-group button {
+    background-color: #242423; /* Green background */
+    border: 1px solid #242423; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    font-size: 28px;
+    position:relative;
+
+    left: 650px;
+    top: 1077px;
+
+  }
+  .all {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    left: 670px;
+  }
+  .ghost {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    left: 670px;
+  }
+  
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #0087FF;
+  }
+
+  .proektic {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 120px;
+    top: 1226px;
+    
+}
+
+.proektic1 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 695px;
+    top: 1226px;
+    
+}
+
+.proektic2 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 1270px;
+    top: 1226px;
+    
+}
+
+
+
+.proektic3 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 120px;
+    top: 1796px;
+    
+}
+
+.proektic4 {
+    position: absolute;
+    width: 530px;
+    height: 524px;
+    left: 695px;
+    top: 1796px;
+    
+}
+
+.contactme {
+    background-color: #242423; 
+    border: none;
+    width: 241px;
+    height: 42px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 5px;
+    display: inline-block;
+    font-size: 24px;
+    position: absolute;
+    left: 840px;
+    top: 2350px;
+    border-radius: 10px;
+  }
+
+  .contactme:hover {
+    background-color: #0087FF;
+  }
